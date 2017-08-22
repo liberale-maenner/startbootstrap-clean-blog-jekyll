@@ -1,16 +1,15 @@
 # Site settings
-title: Clean Blog
+title: Titel
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: email
 copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Beschreibung"
 baseurl: "/startbootstrap-clean-blog-jekyll"
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
-
+twitter_username: twitter
+github_username:  github
+facebook_username:  facebook
+email_username:  email
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
