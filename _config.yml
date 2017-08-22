@@ -1,15 +1,15 @@
 # Site settings
-title: Titel
+title: Liberale Männer
 header-img: img/home-bg.jpg
-email: email
-copyright_name: Your/Project/Corporate Name
-description: "Beschreibung"
+email: 101.154706@germanynet.de
+copyright_name: Liberale Männer
+description: "Gleichberechtigung - auch für Männer"
 baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: twitter
-github_username:  github
-facebook_username:  facebook
-email_username:  email
+url: "http://www.liberale-maenner.de"
+twitter_username: liberalemaenner
+github_username:  ontore
+facebook_username:  liberalemaenner
+email_username:  101.154706@germanynet.de
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
 # google_tracking_id:
