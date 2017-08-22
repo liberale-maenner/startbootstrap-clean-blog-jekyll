@@ -4,8 +4,8 @@ header-img: img/home-bg.jpg
 email: 101.154706@germanynet.de
 copyright_name: Liberale Männer
 description: "Gleichberechtigung - auch für Männer"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
+baseurl: "/"
+url: "http://www.liberale-maenner.net/"
 twitter_username: liberalemaenner
 github_username:  ontore
 facebook_username:  liberalemaenner
