@@ -29,3 +29,7 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
+      subtitle:  " "
+      author: "Liberale Männer"
+header-img: "img/post-bg-01.jpg"
+---
