@@ -8,4 +8,4 @@ am Mittwoch, 13.9., 19 Uhr  im Bratwurst Röslein, Rathausplatz 6, Nürnberg mit
 
 Freier Eintritt
 
-![Ankündigung](img/2017-08-23-Zukunft-von-Trennungsfamilien.jpg)
+![Ankündigung]({{ site.baseurl }}/img/2017-08-23-Zukunft-von-Trennungsfamilien.jpg)
