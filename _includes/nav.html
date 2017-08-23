@@ -23,7 +23,7 @@
                 {% for page in site.pages %}
 		    {% if page.title %}
 				{% if page.url != '/404.html' %}
-		   			{% if page.menu = "yes" %}
+		   			{% if page.navbar = "yes" %}
                 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 		    			{% endif %}
 				{% endif %}
