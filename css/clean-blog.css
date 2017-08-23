@@ -211,13 +211,6 @@ hr.small {
     font-size: 30px;
   }
 }
-
-@media only screen and (max-width: 767px) {
-  .intro-header {
-    background-color: grey;
-  }
-}
-
 .post-preview > a {
   color: #404040;
 }
@@ -407,4 +400,11 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .img-responsive {
+    background-color: grey;
+  }
 }
