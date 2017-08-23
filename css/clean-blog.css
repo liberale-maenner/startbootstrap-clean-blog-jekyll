@@ -402,9 +402,10 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-div.logo-div {
+.logo-div {
   padding-left: 20px;
   padding-top: 20px;
+  padding-botton: 20px;
 }
 @media only screen and (max-width: 767px) {
   .logo-div {
