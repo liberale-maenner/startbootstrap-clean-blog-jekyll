@@ -211,6 +211,13 @@ hr.small {
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .intro-header {
+    background-color: grey;
+  }
+}
+
 .post-preview > a {
   color: #404040;
 }
