@@ -1,5 +1,5 @@
 ---
-header-img: img/2017-08-23-Zukunft-von-Trennungsfamilien
+header-img: img/about-bg.jpg
 ---
 
 Zukunft von Trennungsfamilien: Vorfahrt für gemeinsam Getrennterziehen und die Doppelresidenz!
