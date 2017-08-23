@@ -404,7 +404,7 @@ body {
 
 
 @media only screen and (max-width: 767px) {
-  .img-responsive {
+  .logo-div {
     background-color: grey;
   }
 }
