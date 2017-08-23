@@ -1,5 +1,6 @@
 ---
-layout: pagetitle: "Über uns"
+layout: page
+title: "Über uns"
 description: "Bundesinitiative Liberale Männer e.V."
 header-img: "img/about-bg.jpg"
 navbar: "yes"
