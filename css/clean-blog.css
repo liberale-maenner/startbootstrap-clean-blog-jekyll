@@ -403,10 +403,8 @@ body {
 }
 
 div.logo-div {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 @media only screen and (max-width: 767px) {
   .logo-div {
