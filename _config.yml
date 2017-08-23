@@ -22,3 +22,10 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
