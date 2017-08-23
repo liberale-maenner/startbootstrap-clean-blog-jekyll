@@ -1,5 +1,6 @@
 ---
 header-img: img/about-bg.jpg
+title:      "Eins"
 ---
 
 Zukunft von Trennungsfamilien: Vorfahrt für gemeinsam Getrennterziehen und die Doppelresidenz!
