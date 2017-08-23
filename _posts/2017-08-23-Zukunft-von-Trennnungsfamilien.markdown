@@ -1,6 +1,6 @@
--------
+---
 header-img: 2017-08-23-Zukunft-von-Trennungsfamilien.jpg
--------
+---
 
 Zukunft von Trennungsfamilien: Vorfahrt für gemeinsam Getrennterziehen und die Doppelresidenz!
 
