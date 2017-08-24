@@ -133,6 +133,9 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+.navbar-right {
+  padding-right: 20px;
+}
 .intro-header {
   background: no-repeat center center;
   background-color: #808080;
