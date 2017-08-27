@@ -50,19 +50,47 @@ hr.small {
   background: white;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+@media only screen and (min-width: 750px) { 
+  .navbar-custom {
+
+     width: 750px;
+  }
+}
+
+@media only screen and (min-width: 1000px) { 
+  .navbar-custom {
+
+     width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1200px) { 
+  .navbar-custom {
+
+     width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1400px) { 
+  .navbar-custom {
+
+     width: 1400px;
+  }
+}
+
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -79,11 +107,10 @@ hr.small {
   }
   .navbar-custom .nav li a {
     color: #009ee3;
-    padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #e5007d;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -145,6 +172,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  margin-top: 79px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -156,12 +184,14 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 0;
+    padding-top: 125px;
+    padding-bottom: 160px;
   }
 }
 .intro-header .site-heading,
 .intro-header .page-heading {
-  text-align: center;
+  text-align: left;
 }
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
@@ -170,17 +200,18 @@ hr.small {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  font-size: 24px;
-  line-height: 1.1;
-  display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  margin: 10px 0 0;
+    font-size: 25px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding-left: 30px;
 }
+
+
+
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 }
 .intro-header .post-heading h1 {
@@ -208,10 +239,10 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 42px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .post-preview > a {
@@ -229,8 +260,9 @@ hr.small {
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
-  font-weight: 300;
+  font-weight: normal;
   margin-bottom: 10px;
+  color: #009ee3;
 }
 .post-preview > .post-meta {
   color: #808080;
@@ -405,8 +437,50 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
+.intro-header div.post-heading, header div.site-heading {
+   
+  padding-left: 150px !important;
+  margin-left: -150px !important;
+  background: url('../img/big-pink-stroke.png') 0px 100px no-repeat scroll;
+}
+
+.intro-header div.post-heading h1, header div.site-heading h1 {
+ 
+  color: #ffed00;
+}
+
+
+.intro-header div.post-heading h2, .intro-header .site-heading p {
+ 
+    background: #009ee3;
+    padding: 5px 15px;
+    margin-left: 50px !important;
+    color: #ffffff;
+    border-radius: 7px;
+    display: block;
+}
+
+.intro-header .site-heading p {
+
+    margin: 0.7em;
+}
+
+h2.post-title, h2.section-heading {
+
+   display: block;
+   background: transparent url('../img/postheadingbg.png') left center repeat-y;
+   padding: 10px 10px 10px 120px;
+   margin-left: -120px;
+   color: #e5007d;
+}
+
 @media only screen and (max-width: 767px) {
   .logo-div {
     background-color: grey;
   }
+}
+
+.logo-div {
+  
+    margin-right: 30px !important; 
 }
